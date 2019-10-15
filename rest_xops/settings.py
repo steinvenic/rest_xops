@@ -92,9 +92,9 @@ DATABASES = {
         'NAME': 'rest_xops',
         'HOST': 'localhost',
         'USER': 'root',
-        'PASSWORD': '123456',
+        'PASSWORD': 'cloudfort',
         'PORT': '3306',
-        'OPTIONS': { 'init_command': 'SET storage_engine=INNODB;' }
+        'OPTIONS': { 'init_command': 'SET default_storage_engine=INNODB;' }
     }
 }
 
@@ -133,7 +133,7 @@ JWT_AUTH = {
 }
 # redis 设置
 REDIS_HOST = 'localhost'
-REDIS_PORT = 16379
+REDIS_PORT = 6379
 REDIS_DB = 0
 REDIS_PASSWORD = None
 
